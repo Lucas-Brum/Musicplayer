@@ -12,15 +12,15 @@ print('0 - Tocar uma musica aleatoria.')
 
 modo = int(input('Digite um valor valido e inteiro de 0 a 3: '))
 if modo == 1:
-    print('Play Twenty one pilots: Stressd Out...')
+    print('Play \33[4:34mTwenty one pilots: Stressd Out\33[m...')
     playsound(playlist[0])
 else:
     if modo == 2:
-        print('Play MC Leandrinho: Bonde do tigrão...')
+        print('Play \33[4:34mMC Leandrinho: Bonde do tigrão\33[m...')
         playsound(playlist[1])
     else:
         if modo == 3:
-            print('Play Linkin Park: Numb Encore...')
+            print('Play \33[4:34mLinkin Park: Numb Encore\33[m...')
             playsound(playlist[2])
         else:
             if modo == 0:
